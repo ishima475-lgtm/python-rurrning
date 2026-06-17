@@ -40,6 +40,6 @@
       }
     }
   },
-  "postCreateCommand": "pip install --upgrade pip && pip install -e \"./backend[dev]\" && npm --prefix frontend install && npm install -g @anthropic-ai/claude-code",
+  "postCreateCommand": "pip install --upgrade pip && pip install -e \"./backend[dev]\" && npm --prefix frontend install && npm install -g @anthropic-ai/claude-code && claude plugin install superpowers@claude-plugins-official || true",
   "remoteUser": "vscode"
 }
